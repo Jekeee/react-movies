@@ -22,7 +22,7 @@ const Search = (props) => {
         <div className="input-field">
           <input
             className="validate"
-            placeholder="search"
+            placeholder="Write the name of the movie/series..."
             type="search"
             value={search}
             onChange={(e) => setSearch(e.target.value )}
